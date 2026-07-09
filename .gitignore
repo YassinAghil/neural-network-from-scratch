@@ -1,0 +1,74 @@
+# -------------------------
+# Python cache / build files
+# -------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# -------------------------
+# Virtual environments
+# -------------------------
+.venv/
+venv/
+env/
+
+# -------------------------
+# Dataset files
+# -------------------------
+train.csv
+test.csv
+sample_submission.csv
+data/
+*.csv
+
+# -------------------------
+# Generated model/output files
+# -------------------------
+models/
+plots/
+examples/
+submission.csv
+submissions/
+*.npz
+*.npy
+
+# -------------------------
+# Node / npm files
+# -------------------------
+node_modules/
+
+# -------------------------
+# Local notes / old code
+# -------------------------
+notes.md
+old_code/
+
+# -------------------------
+# Jupyter
+# -------------------------
+.ipynb_checkpoints/
+*.ipynb
+
+# -------------------------
+# OS / editor files
+# -------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# -------------------------
+# Logs / temporary files
+# -------------------------
+*.log
+*.tmp
+*.bak
+*.swp
